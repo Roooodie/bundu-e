@@ -6,6 +6,5 @@ services:
     ports:
       - '80:80'
     volumes:
-      - ./bundu-e:/var/www/html
-      - ./logs:/var/log/apache2
+      - ./bundu-e:/var/www/html/
     stdin_open: true
